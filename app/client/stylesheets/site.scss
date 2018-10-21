@@ -81,6 +81,11 @@ body {
  * Semantic-UI Overrides for squareishness
  */
 .ui.segment {
+  //background: rgba(0, 0, 0, 0.5);
+  border-radius: 0;
+  box-shadow: none;
+}
+.ui.seg {
   background: rgba(0, 0, 0, 0.5);
   border-radius: 0;
   box-shadow: none;
