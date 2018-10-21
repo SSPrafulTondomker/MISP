@@ -91,12 +91,12 @@ input {
 .ui.button {
   border-radius: 0;
   &.primary {
-    background: $primary;
+    background: #e76482;//$primary;
     &:hover {
-      background: lighten($primary, 3%);
+      background: lighten(#e76482, 3%);
     }
     &:active {
-      background: darken($primary, 3%);
+      background: darken(#e76482, 3%);
     }
   }
   &.secondary {
