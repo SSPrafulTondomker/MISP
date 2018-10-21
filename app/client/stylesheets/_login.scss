@@ -6,7 +6,6 @@
   background-size: cover;
 
   > .container {
-    background: rgba(0, 0, 0, 0.5);
     position: relative;
     top: 50%;
 
@@ -14,7 +13,8 @@
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 
-    > .content {
+    > .content {      
+      background: rgba(0, 0, 0, 0.5);
       max-width: 320px;
       margin: 0 auto;
 
