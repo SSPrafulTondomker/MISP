@@ -1,5 +1,13 @@
 
 {
+    "iiita.ac.in": {
+        "school": "Indian Institue of Information Technology",
+        "state": "Allahabad"
+    },
+    "mnnit.ac.in": {
+        "school": "National Institue of Technology",
+        "state": "Allahabad"
+    },
     "utdallas.edu": {
         "school": "The University of Texas at Dallas",
         "state": "Texas"
