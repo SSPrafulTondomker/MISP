@@ -45,28 +45,28 @@
           </div>
         </div>
 
-        <div class="field">
+        <!-- <div class="field">
           <label>Graduation Year</label>
           <select
             name="year"
             ng-model="user.profile.graduationYear">
             <option value="">Graduation Year</option>
-            <option value="2019">2009</option>
-            <option value="2019">2010</option>
-            <option value="2019">2011</option>
-            <option value="2019">2012</option>
-            <option value="2019">2013</option>
-            <option value="2019">2014</option>
-            <option value="2016">2015</option>
-            <option value="2017">2016</option>
-            <option value="2018">2017</option>
+            <option value="2019">Signal Processing</option>
+            <option value="2019">Machine Learning - in general</option>
+            <option value="2019">Brain-Computer Interfacing</option>
+            <option value="2019">Human-machine Interaction</option>
+            <option value="2019">Early diagnosis of Alzheimer</option>
+            <option value="2019">Epilepsy detection</option>
+            <option value="2016">Detection of Sleep disorders</option>
+            <option value="2017">Classification of Bio-Signals</option>
+            <option value="2018">Classification of human Brain</option>
             <option value="2019">2018</option>
             <option value="2019">2019</option>
             <option value="2019">2020</option>
             <option value="2019">2021</option>
             <option value="2019">2022</option>
           </select>
-        </div>
+        </div> -->
 
         <div class="field">
           <label>Gender</label>
@@ -82,11 +82,29 @@
         </div>
 
         <div class="field">
+          <label>Most Interested In</label>
+          <select
+            name="Interest"
+            ng-model="user.profile.description">
+            <option value="">Interest</option>
+            <option value="0001">Signal Processing</option>
+            <option value="0002">Machine Learning - in general</option>
+            <option value="0003">Brain-Computer Interfacing</option>
+            <option value="0004">Human-machine Interaction</option>
+            <option value="0005">Early diagnosis of Alzheimer</option>
+            <option value="0006">Epilepsy detection</option>
+            <option value="0007">Detection of Sleep disorders</option>
+            <option value="0008">Classification of Bio-Signals</option>
+            <option value="0009">Classification of human Brain</option>
+          </select>
+        </div>
+
+        <!-- <div class="field">
           <label>Research Interests</label>
           <input type="text"
                  placeholder="Designer, Data Scientist, iOS Wizard, Hacker Extraordinaire"
                  ng-model="user.profile.description">
-        </div>
+        </div> -->
 
         <div class="field">
           <label>
@@ -95,29 +113,28 @@
           <a
               target="_blank"
               href="https://go.hackmit.org/skill-sheets"
-              class="ui positive right labeled icon button">
+              class="ui pink button">
               Upload
-              <i class="checkmark icon"></i>
             </a>
-          <!-- <textarea ng-model="user.profile.essay">
-          </textarea> -->
+          <textarea ng-model="user.profile.essay">
+          </textarea>
         </div>
 
-        <div class="field"
+        <!-- <div class="field"
              ng-hide="isMitStudent">
           <p>
             Because of limitations imposed by IIITA, we are not legally allowed to host non-IIITA minors (those under 18) for MISP-2019. Checking the box below affirms that you are or will be 18 years or older by April 15th, 2019.
           </p>
           <p>
             <strong>
-            We will be checking ID. Please carry your ID cards at all times.
+            We will be checking ID. If you are a non-IIITA minor, you will be turned away at the door.
             </strong>
           </p>
           <div class="ui checkbox">
             <input type="checkbox" id="adult" ng-model="user.profile.adult">
             <label for="adult">I am 18 or older.</label>
           </div>
-        </div>
+        </div> -->
 
         <br>
 
