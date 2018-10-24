@@ -25,7 +25,10 @@ angular.module('reg')
 
       var dietaryRestrictions = {
         'Vegetarian': false,
-        'Non-Vegetarian': false,
+        'Vegan': false,
+        'Halal': false,
+        'Kosher': false,
+        'Nut Allergy': false
       };
 
       if (user.confirmation.dietaryRestrictions){
