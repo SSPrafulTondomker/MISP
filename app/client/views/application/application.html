@@ -45,7 +45,7 @@
           </div>
         </div>
 
-        <div class="field">
+        <!-- <div class="field">
           <label>Graduation Year</label>
           <select
             name="year"
@@ -66,7 +66,7 @@
             <option value="2019">2021</option>
             <option value="2019">2022</option>
           </select>
-        </div>
+        </div> -->
 
         <div class="field">
           <label>Gender</label>
@@ -77,16 +77,33 @@
             <option value="M">Male</option>
             <option value="F">Female</option>
             <option value="O">Other</option>
-            <option value="N">I prefer not to answer.</option>
           </select>
         </div>
 
         <div class="field">
-          <label>Research Interests</label>
+          <label>Most Interested In..</label>
+          <select
+            name="Interest"
+            ng-model="user.profile.description">
+            <option value="">Interest..</option>
+            <option value="0001">Signal Processing</option>
+            <option value="0002">Machine Learning - in general</option>
+            <option value="0003">Brain-Computer Interfacing</option>
+            <option value="0004">Human-machine Interaction</option>
+            <option value="0005">Early diagnosis of Alzheimer</option>
+            <option value="0006">Epilepsy detection</option>
+            <option value="0007">Detection of Sleep disorders</option>
+            <option value="0008">Classification of Bio-Signals</option>
+            <option value="0009">Classification of human Brain</option>
+          </select>
+        </div>
+
+        <!-- <div class="field">
+          <label>Most Interested in..</label>
           <input type="text"
                  placeholder="Designer, Data Scientist, iOS Wizard, Hacker Extraordinaire"
                  ng-model="user.profile.description">
-        </div>
+        </div> -->
 
         <div class="field">
           <label>
@@ -103,7 +120,7 @@
           </textarea> -->
         </div>
 
-        <div class="field"
+        <!-- <div class="field"
              ng-hide="isMitStudent">
           <p>
             Because of limitations imposed by IIITA, we are not legally allowed to host non-IIITA minors (those under 18) for MISP-2019. Checking the box below affirms that you are or will be 18 years or older by April 15th, 2019.
@@ -117,7 +134,7 @@
             <input type="checkbox" id="adult" ng-model="user.profile.adult">
             <label for="adult">I am 18 or older.</label>
           </div>
-        </div>
+        </div> -->
 
         <br>
 
